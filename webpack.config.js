@@ -39,7 +39,7 @@ module.exports = {
     loaders: [
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style', 'css?minimize!sass!postcss'),
+        loader: ExtractTextPlugin.extract('style', 'css?minimize!postcss!sass'),
         exclude: /node_modules/
       },
       {

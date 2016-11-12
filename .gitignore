@@ -1,3 +1,4 @@
 node_modules/
 public/
 src/common/config.js
+src/styles/config.static.scss

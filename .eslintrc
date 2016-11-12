@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "react"
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "15.0.2"
+    }
+  },
+
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
