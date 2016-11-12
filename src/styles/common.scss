@@ -1,0 +1,49 @@
+@import './var';
+@import './reset';
+
+body {
+  font-size: 16px;
+  font-family: Arial, "Microsoft Yahei", sans-serif;
+  color: #666;
+  background: #f4f4f4;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.main-content {
+  width: $mainWidth;
+  margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+
+  &:link,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+}
