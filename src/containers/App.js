@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -24,10 +24,10 @@ class App extends Component {
   }
 }
 
-App.propTypes = {
-  // Injected by React Router
-  children: PropTypes.node
-}
+// App.propTypes = {
+//   // Injected by React Router
+//   children: PropTypes.node
+// }
 
 
 export default connect()(App)

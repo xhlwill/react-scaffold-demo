@@ -77,7 +77,7 @@ module.exports = {
 
   // debug: "true",
 
-  // 启用source-map
+  // enable source-map
   // devtool: "cheap-module-eval-source-map",
 
   // watch: true,

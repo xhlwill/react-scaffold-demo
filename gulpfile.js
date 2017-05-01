@@ -8,7 +8,7 @@ var webpackConfig = require('./webpack.config');
 
 // 引入配置文件
 var config = require('./src/common/config');
-// 配置变量替换
+// 变量替换
 var preprocess = require('gulp-preprocess');
 
 // 复制文件
@@ -98,7 +98,7 @@ gulp.task('watch', function () {
 });
 
 // 开发任务
-gulp.task('dev', ['copy', 'webpack-dev']);
+gulp.task('dev', ['copy', 'webpack-watch']);
 
 // 生产任务
 gulp.task('default', ['copy', 'webpack']);
