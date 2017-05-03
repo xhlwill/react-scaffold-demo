@@ -14,9 +14,14 @@
   "settings": {
     "react": {
       "pragma": "React",
-      "version": "15.0.2"
+      "version": "15.5.4"
     }
   },
 
-  "extends": ["eslint:recommended", "plugin:react/recommended"]
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+
+  "env": {
+    "browser": true,
+    "node": true
+  }
 }
